@@ -14,7 +14,7 @@ public class Category {
 
     @Id
     @GeneratedValue
-    @Column(name = "")
+    @Column(name = "category_id")
     private Long id;
 
     private String name;
